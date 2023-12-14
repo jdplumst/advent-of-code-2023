@@ -1,5 +1,4 @@
 import os
-import math
 
 
 def main():
@@ -29,7 +28,7 @@ def main():
                 curr_number = 0
             else:
                 curr_number = (curr_number * 10) + int(y)
-        res += math.floor(2 ** (count - 1))
+        res += int(2 ** (count - 1))
 
     print(res)
     return res
